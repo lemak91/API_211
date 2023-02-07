@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Fetch Practice</title>
+</head>
+<body>
+
+  <!-- When you click this button, the posts collected in the fetch request will be logged in the console in your devtools tray -->
+  <div>
+  <button onclick="consolePersons()">Console Posts</button>
+
+  <!-- When you click this button the posts collected from the fetch request will be displayed below in the ul element with the id='all-posts' -->
+  <button onclick="displayPersons()">Display Persons</button>
+  </div>
+  
+  <div>
+    <h3>All Persons</h3>
+    <ul id='all-persons'></ul>
+
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
